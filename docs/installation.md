@@ -4,7 +4,7 @@
   - [Build Application](#build-application)
     - [Download Repository](#download-repository)
     - [Build docker image](#build-docker-image)
-  - [Upload App to the Industrial Edge Managment](#upload-app-to-the-industrial-edge-managment)
+  - [Upload App to the Industrial Edge Management](#upload-app-to-the-industrial-edge-management)
     - [Connect your Industrial Edge App Publisher](#connect-your-industrial-edge-app-publisher)
     - [Upload App using the Industrial Edge App Publisher](#upload-app-using-the-industrial-edge-app-publisher)
   - [Install Application on Industrial Edge Device](#install-application-on-industrial-edge-device)
@@ -22,7 +22,7 @@ docker-compose build
 ```
 This command builds the docker image of the service which is specified in the docker-compose.yml file.
 
-## Upload App to the Industrial Edge Managment
+## Upload App to the Industrial Edge Management
 
 Please find below a short description how to publish your application in your IEM.
 
@@ -53,7 +53,8 @@ Rewrite Target: /
 <a href="graphics/reverse-proxy.png"><img src="graphics/reverse-proxy.png" height="25%" width="25%" ></a> 
 <br>
 
-- **Start Upload** to transfer the app to Industrial Edge Management
+- Click "Review" and "Validate & Create"
+- Start Upload to transfer the app to Industrial Edge Management
 - Further information about using the Industrial Edge App Publisher can be found in the [IE Hub](https://iehub.eu1.edge.siemens.cloud/documents/appPublisher/en/start.html)
 
 ## Install Application on Industrial Edge Device
