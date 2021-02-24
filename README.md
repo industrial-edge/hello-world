@@ -20,7 +20,7 @@ This is a Hello World application for Industrial Edge.
 
 This application is Hello World Webserver Application for Industrial Edge.
 
-![overview](docs/graphics/hello-world.png)
+![hello-world](docs/graphics/hello-world-overview.png)
 
 ## Requirements
 
@@ -28,7 +28,7 @@ This application is Hello World Webserver Application for Industrial Edge.
 
 - OS: Windows or Linux
 - Docker minimum V18.09
-- Docker Compose V2.0 – V2.4
+- Docker Compose V2.4
 - Industrial Edge App Publisher (IEAP) V1.1.14
 - Industrial Edge Management (IEM) V1.1.11
 - Industrial Edge Device (IED) V1.1.0-44
@@ -40,17 +40,18 @@ This application is Hello World Webserver Application for Industrial Edge.
 
 ## Installation
 
-You can find the further information about the following steps in the [docs](./docs)
-To keep the readme.md file as short as possible please add more detailed information in the docs folder.
+You can find the further information about the following steps in the [docs](./docs).
 
 - [Build application](docs/installation.md#build-application)
-- [Upload application to Industrial Edge Management](docs/installation.md#upload-application-to-industrial-edge-management)
+- [Upload application to Industrial Edge Management](docs/installation.md#upload-app-to-the-industrial-edge-management)
 - [Install application to Industrial Edge Device](docs/installation.md#install-application-on-industrial-edge-device)
 
 
 ## Usage
 
 Login to Industrial Edge Device and click on Icon of the Hello-World Application to open page in Browser.
+
+![hello-world](docs/graphics/hello-world.png)
 
 ## Documentation
  
