@@ -8,6 +8,7 @@
     - [Connect your Industrial Edge App Publisher](#connect-your-industrial-edge-app-publisher)
     - [Upload App using the Industrial Edge App Publisher](#upload-app-using-the-industrial-edge-app-publisher)
   - [Install Application on Industrial Edge Device](#install-application-on-industrial-edge-device)
+  - [Usage](#usage)
   
 ## Build Application
 
@@ -60,3 +61,9 @@ Rewrite Target: /
 ## Install Application on Industrial Edge Device
 
 Select Uploaded version of Application and install to Industrial Edge Device.
+
+## Usage
+
+Login to Industrial Edge Device and click on Icon of the Hello-World Application to open page in Browser.
+
+![hello-world](graphics/hello-world.png)

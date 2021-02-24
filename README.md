@@ -43,7 +43,7 @@ This application is Hello World Webserver Application for Industrial Edge.
 You can find the further information about the following steps in the [docs](./docs).
 
 - [Build application](docs/installation.md#build-application)
-- [Upload application to Industrial Edge Management](docs/installation.md#upload-application-to-industrial-edge-management)
+- [Upload application to Industrial Edge Management](docs/installation.md#upload-app-to-the-industrial-edge-management)
 - [Install application to Industrial Edge Device](docs/installation.md#install-application-on-industrial-edge-device)
 
 
