@@ -29,8 +29,8 @@ This application is Hello World Webserver Application for Industrial Edge.
 - OS: Windows or Linux
 - Docker minimum V18.09
 - Docker Compose V2.4
-- Industrial Edge App Publisher (IEAP) V1.1.14
-- Industrial Edge Management (IEM) V1.1.11
+- Industrial Edge App Publisher (IEAP) V1.1.5
+- Industrial Edge Management (IEM) V1.1.16
 - Industrial Edge Device (IED) V1.1.0-44
 
 ### Helpful tools
