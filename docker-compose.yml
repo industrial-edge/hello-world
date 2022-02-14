@@ -6,7 +6,7 @@ services:
     ports:
       - '8080:80'
     mem_limit: 50mb
-    restart: always
+    restart: "unless-stopped"
     logging: 
       driver: "json-file"
       options: 
