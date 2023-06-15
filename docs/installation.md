@@ -17,6 +17,8 @@ Download or clone the repository source code to your workstation.
 
 ### Build docker image
 
+From the root folder of this project, navigate into the src folder and change the filename "Dockerfile.example" to "Dockerfile".
+
 Open terminal in the project root path where docker-compose.yml is located and execute: 
 ```bash
 docker-compose build
