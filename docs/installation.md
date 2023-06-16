@@ -13,17 +13,28 @@
 ## Build Application
 
 ### Download Repository
-Download or clone the repository source code to your workstation.
+
+Download or clone the repository source code to your workstation.  
+![Github Clone Section](graphics/clonerepo.png)
+
+
+* Trough terminal:
+```bash
+git clone https://github.com/industrial-edge/hello-world.git
+```
+
+* Trough VSCode:  
+<kbd>CTRL</kbd>+<kbd>&uarr; SHIFT</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to open VSCode's command pallette and type `git clone`:
+
+![VS Code Git Clone command](graphics/git.png)
 
 ### Build docker image
 
-From the root folder of this project, navigate into the src folder and change the filename "Dockerfile.example" to "Dockerfile".
-
-Open terminal in the project root path where docker-compose.yml is located and execute: 
-```bash
-docker-compose build
-```
-This command builds the docker image of the service which is specified in the docker-compose.yml file.
+- Navigate into `src` and find the file named `Dockerfile.example`. The `Dockerfile.example` is an example Dockerfile that can be used to build the Docker images of the backend and the frontend. If you choose to use these, rename them both to `Dockerfile` before proceeding
+- Open a console in the root folder (where the `docker-compose` file is)
+- Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
+- These Docker images can now be used to build your app with the Industrial Edge App Publisher
+- `docker images` can be used to check for the images
 
 ## Upload App to the Industrial Edge Management
 
