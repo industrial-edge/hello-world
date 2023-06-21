@@ -30,7 +30,7 @@ git clone https://github.com/industrial-edge/hello-world.git
 
 ### Build docker image
 
-- Navigate into `src` and find the file named `Dockerfile.example`. The `Dockerfile.example` is an example Dockerfile that can be used to build the Docker images of the backend and the frontend. If you choose to use these, rename them both to `Dockerfile` before proceeding
+- Navigate into `src` and find the file named `Dockerfile.example`. The `Dockerfile.example` is an example Dockerfile that can be used to build the docker image(s) of the service(s) that runs in this application example. If you choose to use these, rename them to `Dockerfile` before proceeding
 - Open a console in the root folder (where the `docker-compose` file is)
 - Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
 - These Docker images can now be used to build your app with the Industrial Edge App Publisher
