@@ -86,7 +86,13 @@ Rewrite Target: /
 <br>
 
 - Click "Review" and "Validate & Create"
-- Select the correct architecture "x86-64" or "arm64" depending on the device
+- Select the correct architecture depending on the device
+```txt
+"x86-64"
+  or
+"arm64" 
+```
+<br>
 <a href="graphics/Arich.png"><img src="graphics/Arich.png" height="25%" width="25%" ></a> 
 <br>
 - Start Upload to transfer the app to Industrial Edge Management
