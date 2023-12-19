@@ -33,13 +33,13 @@ git clone https://github.com/industrial-edge/hello-world.git
 - Navigate into `src` and find the file named `Dockerfile.example`. The `Dockerfile.example` is an example Dockerfile that can be used to build the docker image(s) of the service(s) that runs in this application example. If you choose to use these, rename them to `Dockerfile` before proceeding
 - Open a console in the root folder (where the `docker-compose` file is)
 
-* Building the image for x86 based devices:
+#### Building the image for x86 based devices:
 
 - Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
 - These Docker images can now be used to build your app with the Industrial Edge App Publisher
 - `docker inspect " Image name" ` can be used to check for the image
 
-* Building the image for ARM based devices:
+#### Building the image for ARM based devices:
 
 To create a Docker image that runs on ARM-based devices, the building process has to be carried out on a development environment that supports the ARM architecture. This support can be provided by using an emulator if your development environment is not ARM-based. The needed Docker file and Docker Compose are located in the " Benchmakr_ARM_Devices" folder. Make sure to run the needed commands in the correct directory.
 
