@@ -3,6 +3,8 @@ services:
   hello-world:
     build: ./src
     image: 'hello-world:1.0.0'
+#   platform: linux/arm64
+#   If the user wishes to deploy this app on a ARM based Device ( IoT 2050 , Sclance LPE ...), the option platform that is mentioned in line 6 needs to be uncommented 
     ports:
       - '8080:80'
     mem_limit: 50mb

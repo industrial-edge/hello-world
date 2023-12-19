@@ -18,12 +18,12 @@ Download or clone the repository source code to your workstation.
 ![Github Clone Section](graphics/clonerepo.png)
 
 
-* Trough terminal:
+* Through terminal:
 ```bash
 git clone https://github.com/industrial-edge/hello-world.git
 ```
 
-* Trough VSCode:  
+* Through VSCode:  
 <kbd>CTRL</kbd>+<kbd>&uarr; SHIFT</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to open VSCode's command pallette and type `git clone`:
 
 ![VS Code Git Clone command](graphics/git.png)
@@ -32,9 +32,27 @@ git clone https://github.com/industrial-edge/hello-world.git
 
 - Navigate into `src` and find the file named `Dockerfile.example`. The `Dockerfile.example` is an example Dockerfile that can be used to build the docker image(s) of the service(s) that runs in this application example. If you choose to use these, rename them to `Dockerfile` before proceeding
 - Open a console in the root folder (where the `docker-compose` file is)
+
+* Building the image for x86 based devices:
+
 - Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
 - These Docker images can now be used to build your app with the Industrial Edge App Publisher
-- `docker images` can be used to check for the images
+- `docker inspect " Image name" ` can be used to check for the image
+
+* Building the image for ARM based devices:
+
+To create a Docker image that runs on ARM-based devices, the building process has to be carried out on a development environment that supports the ARM architecture. This support can be provided by using an emulator if your development environment is not ARM-based. The needed Docker file and Docker Compose are located in the " Benchmakr_ARM_Devices" folder. Make sure to run the needed commands in the correct directory.
+
+The following Docker command can be used to run the Eumlator. More information can be found [Here](https://docs.docker.com/build/building/multi-platform/#building-multi-platform-images) (**Note: The container will run in privileged mode; if this is undesired, feel free to use an alternative method**)
+
+```bash
+sudo docker run --privileged --rm tonistiigi/binfmt -- install arm64
+``` 
+Afterwards, you can proceed with the following:
+- Define the platform in the docker-compose file, simply uncomment the line mentioning the platform in the docker-compose file
+- Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
+- These Docker images can now be used to build your app with the Industrial Edge App Publisher
+- `docker inspect " Image name" ` can be used to check for the image
 
 ## Upload App to the Industrial Edge Management
 
@@ -68,6 +86,9 @@ Rewrite Target: /
 <br>
 
 - Click "Review" and "Validate & Create"
+- Select the correct architecture "x86-64" or "arm64" depending on the device
+<a href="graphics/Arich.png"><img src="graphics/Arich.png" height="25%" width="25%" ></a> 
+<br>
 - Start Upload to transfer the app to Industrial Edge Management
 - Further information about using the Industrial Edge App Publisher can be found in the [IE Hub](https://iehub.eu1.edge.siemens.cloud/documents/appPublisher/en/start.html)
 
