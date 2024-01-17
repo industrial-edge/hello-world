@@ -19,7 +19,7 @@ This is a Hello World application for Industrial Edge.
 
 ### Overview
 
-This application is Hello World Webserver Application for Industrial Edge.
+This application is a Hello World Webserver Application for Industrial Edge.
 
 ![hello-world](docs/graphics/hello-world-overview.png)
 
