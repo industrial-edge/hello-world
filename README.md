@@ -1,6 +1,6 @@
 # Hello World Industrial Edge
 
-This is a Hello World application for Industrial Edge. 
+This is a Hello World application for Industrial Edge.
 
 - [Hello World Industrial Edge](#hello-world-industrial-edge)
   - [Description](#description)
@@ -10,6 +10,7 @@ This is a Hello World application for Industrial Edge.
     - [Helpful tools](#helpful-tools)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Implementation](#implementation)
   - [Documentation](#documentation)
   - [Contribution](#contribution)
   - [License and Legal Information](#license-and-legal-information)
@@ -19,7 +20,7 @@ This is a Hello World application for Industrial Edge.
 
 ### Overview
 
-This application is a Hello World Webserver Application for Industrial Edge.
+This is a Hello World web application for Industrial Edge.
 
 ![hello-world](docs/graphics/hello-world-overview.png)
 
@@ -35,9 +36,9 @@ This application is a Hello World Webserver Application for Industrial Edge.
 - Industrial Edge Device (IED) V1.1.0-44
 
 ### Helpful tools
-- Any development environment (e.g. Visual Studio Code, Eclipse, …)
-- Docker Extension for your development environment e.g. Visual Studio Code Extension 
 
+- Any development environment (e.g. Visual Studio Code, Eclipse, …)
+- Docker Extension for your development environment e.g. Visual Studio Code Extension
 
 ## Installation
 
@@ -47,15 +48,18 @@ You can find the further information about the following steps in the [docs](./d
 - [Upload application to Industrial Edge Management](docs/installation.md#upload-app-to-the-industrial-edge-management)
 - [Install application to Industrial Edge Device](docs/installation.md#install-application-on-industrial-edge-device)
 
-
 ## Usage
 
 Login to Industrial Edge Device and click on Icon of the Hello-World Application to open page in Browser.
 
 ![hello-world](docs/graphics/hello-world.png)
 
+## Implementation
+
+To be able to run the application in your development environment as well as on Industrial Edge Device behind a reverse proxy check out the [implementation](./docs/implementation.md)
+
 ## Documentation
- 
+
 - You can find further documentation and help in the following links
   - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
   - [Industrial Edge Forum](https://forum.mendix.com/link/space/industrial-edge)
