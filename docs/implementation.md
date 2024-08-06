@@ -14,6 +14,8 @@ How you can achieve that your application can handle both scenarios without much
 
 The `\<base>` HTML tag specifies the base URL to use for all relative URLs in the document. This is relevant as CSS and JavaScript files are referenced using relative URLs. If the `\<base>` tag is not specified correctly these files are not loaded and your web application does not function as indented.
 
+For more information please refer to [Mozilla HTML documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
+
 The easiest way for that your application is able to handle being served from different URLs is to define the base URL as a relative URL.
 
 ```html
