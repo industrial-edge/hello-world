@@ -48,12 +48,27 @@ To create a Docker image that runs on ARM-based devices, the building process ha
 The following Docker command can be used to run the emulator. More information can be found [here](https://docs.docker.com/build/building/multi-platform/#building-multi-platform-images) (**Note: The container will run in privileged mode; if this is undesired, feel free to use an alternative method**)
 
 ```bash
-sudo docker run --privileged --rm tonistiigi/binfmt -- install arm64
+sudo docker run --privileged --rm tonistiigi/binfmt --install arm64
+```
+
+Expected Output:
+```bash
+installing: arm64 OK
+{
+  "supported": [
+    "linux/amd64",
+    "linux/arm64",
+    "linux/386"
+  ],
+  "emulators": [
+    "qemu-aarch64"
+  ]
+}
 ```
 
 Afterwards, you can proceed with the following:
 
-- Define the platform in the docker-compose file, simply uncomment the line mentioning the platform in the docker-compose file
+- Define the platform in the docker-compose file, simply uncomment the [line](https://github.com/industrial-edge/hello-world/blob/main/docker-compose.yml#L6) mentioning the platform in the [docker-compose file](https://github.com/industrial-edge/hello-world/blob/main/docker-compose.yml)
 - Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
 - These Docker images can now be used to build your app with the Industrial Edge App Publisher
 - `docker inspect " Image name"` can be used to check for the image
