@@ -26,7 +26,7 @@ By doing that your application is able to load CSS and JavaScript and other cont
 
 ## Reverse Proxy
 
-In the Industrial Edge App Publisher the user has to add a configuration to use the reverse proxy of the Industrial Edge Device. 
+In the Industrial Edge App Publisher the user has to add a configuration to use the reverse proxy of the Industrial Edge Device.
 
 ```txt
   Container Port: 80
@@ -34,6 +34,8 @@ In the Industrial Edge App Publisher the user has to add a configuration to use 
   Service Name: hello-world
   Rewrite Target: /
 ```
+
+To get full explanation about the reverse proxy settings refer to the [IE App Publisher documentation](https://docs.eu1.edge.siemens.cloud/develop_an_application/ieap/app_redirection/redirect_to_reverse_proxy.html#using-the-ie-app-publisher-ui)
 
 <a href="graphics/reverse-proxy.png"><img src="graphics/reverse-proxy.png" height="40%" width="40%" ></a>
 
