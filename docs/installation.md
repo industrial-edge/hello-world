@@ -68,8 +68,7 @@ installing: arm64 OK
 
 Afterwards, you can proceed with the following:
 
-- Define the platform in the docker-compose file, simply uncomment the [line](https://github.com/industrial-edge/hello-world/blob/main/docker-compose.yml#L6) mentioning the platform in the [docker-compose file](https://github.com/industrial-edge/hello-world/blob/main/docker-compose.yml)
-- Use the `docker compose build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose.yml file.
+- Use `docker compose -f docker-compose-arm64.yml build` (replaces the older `docker-compose build`) command to build the docker image of the service which is specified in the docker-compose-arm64.yml file.
 - These Docker images can now be used to build your app with the Industrial Edge App Publisher
 - `docker inspect " Image name"` can be used to check for the image
 
