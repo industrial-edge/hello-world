@@ -28,12 +28,12 @@ This is a Hello World web application for Industrial Edge.
 
 ### Used components
 
-- OS: Windows or Linux
+- OS: Windows or Linux (preferred)
 - Docker minimum V18.09
 - Docker Compose V2.4
-- Industrial Edge App Publisher (IEAP) V1.1.5
-- Industrial Edge Management (IEM) V1.1.16
-- Industrial Edge Device (IED) V1.1.0-44
+- Industrial Edge App Publisher (IEAP) V1.27.9
+- Industrial Edge Management (IEM) V2.3.2
+- Industrial Edge Device (IED) V1.28.1-2-b
 
 ### Helpful tools
 
