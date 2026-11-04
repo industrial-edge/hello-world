@@ -29,7 +29,7 @@ This is a Hello World web application for Industrial Edge.
 ### Used components
 
 - OS: Windows or Linux (preferred)
-- Docker minimum V18.09
+- Docker Engine 27.0
 - Docker Compose V2.4
 - Industrial Edge App Publisher (IEAP) V1.27.9
 - Industrial Edge Management (IEM) V2.3.2
