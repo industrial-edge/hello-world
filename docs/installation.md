@@ -101,7 +101,7 @@ For more detailed information please see the section for [uploading apps to the 
   Rewrite Target: /
   ```
 
-  <a href="graphics/reverse-proxy.png"><img src="graphics/reverse-proxy.png" height="40%" width="40%" ></a>  
+  <a href="graphics/reverse-proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>  
 
 - Click "Review" and "Validate & Create"
 - Select the correct architecture depending on the device
