@@ -92,17 +92,31 @@ For more detailed information please see the section for [uploading apps to the 
 - The warnings  
 `Build (Detail) (services >> hello-world >> build) is not supported`  
   can be ignored
-- Configure reverse proxy of hello-world service by editing the service. **Click '+' button to save settings**
+- Configure reverse proxy of hello-world service by editing the service.
+
+  Select the Network menu and scroll down to the Reverse Proxy section:
   
-  ```txt
+  <a href="graphics/reverse-proxy.png"><img src="graphics/Select-Network-Config.png" height="40%" width="40%" ></a>
+
+  Fill in the following fields:
+
+    ```txt
   Container Port: 80
   Protocol: HTTP 
   Service Name: hello-world
   Rewrite Target: /
   ```
+    
+  <a href="graphics/reverse-proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>
 
-  <a href="graphics/reverse-proxy.png"><img src="graphics/reverse-proxy.png" height="40%" width="40%" ></a>  
+  **Click '+' button to add the settings**  The settings added will be shown at the end of the section and can be eliminated if the data hasn't been written correctly:
 
+  <a href="graphics/reverse-proxy.png"><img src="graphics/Confirmation.png" height="40%" width="40%" ></a>
+
+  **Click 'Save' button on top right corner to save settings**
+  
+  **To save the settings the Configuration an System menu must have the mandatory fields filled**
+  
 - Click "Review" and "Validate & Create"
 - Select the correct architecture depending on the device
   

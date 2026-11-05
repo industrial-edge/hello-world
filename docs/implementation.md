@@ -37,6 +37,6 @@ In the Industrial Edge App Publisher the user has to add a configuration to use 
 
 To get full explanation about the reverse proxy settings refer to the [IE App Publisher documentation](https://docs.eu1.edge.siemens.cloud/develop_an_application/ieap/app_redirection/redirect_to_reverse_proxy.html#using-the-ie-app-publisher-ui)
 
-<a href="graphics/reverse-proxy.png"><img src="graphics/reverse-proxy.png" height="40%" width="40%" ></a>
+<a href="graphics/reverse-proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>
 
 This example shows that the web application will be served using the subpath `hello-world`.
