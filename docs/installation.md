@@ -109,7 +109,9 @@ For more detailed information please see the section for [uploading apps to the 
     
   <a href="graphics/reverse-proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>
 
-  **Click '+' button to add the settings**  
+  **Click '+' button to add the settings**  The settings added will be shown at the end of the section and can be eliminated if the data hasn't been written correctly:
+
+  <a href="graphics/reverse-proxy.png"><img src="graphics/Confirmation.png" height="40%" width="40%" ></a>
 
   **Click 'Save' button on top right corner to save settings**
   
