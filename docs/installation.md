@@ -107,7 +107,7 @@ For more detailed information please see the section for [uploading apps to the 
   Rewrite Target: /
   ```
     
-  <a href="graphics/reverse-proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>
+  <a href="graphics/Reverse-Proxy.png"><img src="graphics/Reverse-Proxy.png" height="40%" width="40%" ></a>
 
   **Click '+' button to add the settings**  The settings added will be shown at the end of the section and can be eliminated if the data hasn't been written correctly:
 
